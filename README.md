@@ -1,5 +1,10 @@
 # emoji-unicode
 
+[![Build Status](https://img.shields.io/travis/nitely/emoji-unicode.svg?style=flat-square)](https://travis-ci.org/nitely/emoji-unicode)
+[![Coverage Status](https://img.shields.io/coveralls/nitely/emoji-unicode.svg?style=flat-square)](https://coveralls.io/r/nitely/emoji-unicode)
+[![pypi](https://img.shields.io/pypi/v/emoji-unicode.svg?style=flat-square)](https://pypi.python.org/pypi/emoji-unicode)
+[![licence](https://img.shields.io/pypi/l/emoji-unicode.svg?style=flat-square)](https://raw.githubusercontent.com/nitely/emoji-unicode/master/LICENSE)
+
 Replace unicode emojis by its corresponding image representation. Supports *Unicode 8* standard.
 
 ## Compatibility
