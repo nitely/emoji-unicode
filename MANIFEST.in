@@ -1,0 +1,3 @@
+recursive-include emoji_unicode *
+include LICENSE
+include README.md
