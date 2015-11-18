@@ -1,6 +1,7 @@
 language: python
 
 # Run travis, run
+# Run converalls, run
 # Use container-based infrastructure
 sudo: false
 
