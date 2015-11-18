@@ -10,7 +10,7 @@ Replace unicode emojis by its corresponding image representation. Supports *Unic
 
 ### Replace
 
-[docs]()
+[docs](http://emoji-unicode.readthedocs.org/en/latest/emoji_unicode.html#emoji_unicode.replace)
 
 ```python
 emoji_unicode.replace(
@@ -30,7 +30,7 @@ may (or may not) appear in between a emoji and a skin tone modifier,
 making the code points to be different. It should be used
 to rename the image files.
 
-[docs]()
+[docs](http://emoji-unicode.readthedocs.org/en/latest/emoji_unicode.html#emoji_unicode.normalize)
 
 ```python
 emoji_unicode.normalize('1F468-200D-2764-FE0F-200D-1F468')
@@ -57,7 +57,7 @@ re.sub(PATTERN, match_handler, 'Time to ⛽')
 
 ## Docs
 
-[docs]()
+[docs](http://emoji-unicode.readthedocs.org/en/latest/)
 
 ## Dev
 
@@ -81,11 +81,11 @@ $ python ./runtests.py
 
 ## Benchmark
 
+This will run some silly benchmarks.
+
 ```
 $ python ./benchmark.py
 ```
-
-This will run some silly benchmarks.
 
 Here is the output on my machine:
 
@@ -104,10 +104,11 @@ text len: 10000
 0.0014624089817516506
 ```
 
-# Acknowledgments
+## Acknowledgments
 
 Thanks to [iamcal/emoji-data](https://github.com/iamcal/emoji-data)
-for maintaining an incredible source of emojis to make a robust test suite.
+for maintaining an incredible source of emojis that allowed me
+to make a robust test suite.
 
-# License
+## License
 MIT

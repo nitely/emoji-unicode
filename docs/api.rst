@@ -1,5 +1,5 @@
-emoji_unicode (API)
-*******************
+API
+***
 
 Helpers
 -------

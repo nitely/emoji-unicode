@@ -3,20 +3,29 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to emoji-unicode's documentation!
-=========================================
+Welcome to emoji-unicode
+========================
 
-Contents:
+API Reference
+-------------
+
+If you are looking for information on a specific function, class or
+method, this part of the documentation is for you.
 
 .. toctree::
    :maxdepth: 2
 
+   api
 
+Additional Notes
+----------------
 
-Indices and tables
-==================
+Design notes, legal information and changelog are here for the interested.
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+
+   changelog
+   license
+
 
