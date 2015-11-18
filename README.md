@@ -10,7 +10,7 @@ Replace unicode emojis by its corresponding image representation. Supports *Unic
 
 ### Replace
 
-[docs](http://emoji-unicode.readthedocs.org/en/latest/emoji_unicode.html#emoji_unicode.replace)
+[docs](http://emoji-unicode.readthedocs.org/en/latest/api.html#emoji_unicode.replace)
 
 ```python
 emoji_unicode.replace(
@@ -30,7 +30,7 @@ may (or may not) appear in between a emoji and a skin tone modifier,
 making the code points to be different. It should be used
 to rename the image files.
 
-[docs](http://emoji-unicode.readthedocs.org/en/latest/emoji_unicode.html#emoji_unicode.normalize)
+[docs](http://emoji-unicode.readthedocs.org/en/latest/api.html#emoji_unicode.normalize)
 
 ```python
 emoji_unicode.normalize('1F468-200D-2764-FE0F-200D-1F468')
