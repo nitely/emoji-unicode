@@ -11,6 +11,12 @@ Replace unicode emojis by its corresponding image representation. Supports *Unic
 
 * Python 2.7, 3.3, 3.4 and 3.5 (recommended)
 
+## Install
+
+```
+$ pip install emoji-unicode
+```
+
 ## Usage
 
 ### Replace
