@@ -20,7 +20,7 @@ emoji_unicode.replace(
 # Time to <img src="26fd.svg" alt="⛽">
 ```
 
-> Note: the `Emoji.code_points` are normalized.
+> Note: the [Emoji.code_points](http://emoji-unicode.readthedocs.org/en/latest/api.html#emoji_unicode.Emoji.code_points) are normalized.
 
 ### Normalize
 
