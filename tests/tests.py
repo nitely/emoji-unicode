@@ -139,8 +139,15 @@ class ModelEmojiTest(unittest.TestCase):
         self.assertEqual(emoji.unicode, 'foo')
 
     def test_code_points(self):
-        emoji = Emoji(unicode='\U0001f58b\U0001f58b\U0001f58b')
+        emoji = Emoji(unicode='\U0001f58b\U0001f58b\U0001f58b\uFE0F\u200D')
         self.assertEqual(emoji.code_points, '1F58B-1F58B-1F58B'.lower())
+
+    def test_as_map(self):
+        emoji = Emoji(unicode='\U0001f58b\U0001f58b\U0001f58b\uFE0F\u200D')
+        self.assertEqual(
+            emoji.as_map(),
+            [('\U0001f58b', '1f58b'), ('\U0001f58b', '1f58b'), ('\U0001f58b', '1f58b')]
+        )
 
 
 class ParserTest(unittest.TestCase):
