@@ -112,7 +112,7 @@ def render(e):
 # This assumes `woman-kissing-man.svg` is missing
 emoji_unicode.replace(
     u'\U0001f469\u200d\u2764\ufe0f\u200d\U0001f48b\u200d\U0001f468',
-    lambda e: render(e)
+    render
 )
 # <img src="1f469.svg" alt="\U0001f469"><img src="2764.svg" alt="\u2764"> ...
 ```
