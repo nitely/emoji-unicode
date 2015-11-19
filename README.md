@@ -9,7 +9,8 @@ Replace unicode emojis by its corresponding image representation. Supports *Unic
 
 ## Compatibility
 
-* Python 2.7, 3.3, 3.4 and 3.5 (recommended)
+* Python 2.7 ([wide-build](http://emoji-unicode.readthedocs.org/en/latest/python2.html)),
+3.3, 3.4 and 3.5 (recommended)
 
 ## Install
 
@@ -25,8 +26,8 @@ $ pip install emoji-unicode
 
 ```python
 emoji_unicode.replace(
-    'Time to ⛽',
-    lambda e: '<img src="{filename}.svg" alt="{raw}">'.format(filename=e.code_points, raw=e.unicode)
+    u'Time to ⛽',
+    lambda e: u'<img src="{filename}.svg" alt="{raw}">'.format(filename=e.code_points, raw=e.unicode)
 )
 # Time to <img src="26fd.svg" alt="⛽">
 ```
@@ -44,7 +45,7 @@ to rename the image files.
 [docs](http://emoji-unicode.readthedocs.org/en/latest/api.html#emoji_unicode.normalize)
 
 ```python
-emoji_unicode.normalize('1F468-200D-2764-FE0F-200D-1F468')
+emoji_unicode.normalize(u'1F468-200D-2764-FE0F-200D-1F468')
 # 1f468-2764-1f468
 ```
 
@@ -56,13 +57,13 @@ PATTERN = re.compile(emoji_unicode.RE_PATTERN_TEMPLATE)
 
 def match_handler(m):
     e = emoji_unicode.Emoji(unicode=m.group('emoji'))
-    return '<img src="{filename}.svg" alt="{raw}">'.format(
+    return u'<img src="{filename}.svg" alt="{raw}">'.format(
         filename=e.code_points,
         raw=e.unicode
     )
 
 
-re.sub(PATTERN, match_handler, 'Time to ⛽')
+re.sub(PATTERN, match_handler, u'Time to ⛽')
 # Time to <img src="26fd.svg" alt="⛽">
 ```
 
