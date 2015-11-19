@@ -71,6 +71,52 @@ re.sub(PATTERN, match_handler, u'Time to ⛽')
 
 [docs](http://emoji-unicode.readthedocs.org/en/latest/)
 
+## Unicode 8 emojis
+
+If your current emoji package supports unicode 8,
+which means it supports skin tones and [sequences](http://unicode.org/reports/tr51/),
+then [normalizing](https://github.com/nitely/emoji-unicode#normalize) the file names
+should be enough. But to handle unsupported emojis, for example future sequences,
+they should be displayed as multiple glyphs.
+
+Instead of displaying the `woman-kissing-man` glyph you may
+display `woman`, `heart`, `kiss`, `man` glyphs.
+
+Here is a example of how this could be handled:
+
+```python
+EMOJI_FILES = set(['1f469', '2764', '1f48b', '1f468'])  # A set containing the emoji file names
+
+
+def _render(unicode, code_points):
+    return u'<img src="{filename}.svg" alt="{alt}">'.format(filename=code_points, alt=unicode)
+
+
+def render(e):
+    """
+    Return the rendered html for the passed Emoji.
+    Return the html as multiple glyphs when the
+    emoji is a sequence not found within the files.
+    Return the raw unicode when one or more glyphs
+    are missing.
+    """
+    if e.code_points in EMOJI_FILES:
+        return _render(e.unicode, e.code_points)
+
+    if any(c not in EMOJI_FILES for u, c in e.as_map()):
+        return e.unicode
+
+    return u''.join(_render(u, c) for u, c in e.as_map())
+
+
+# This assumes `woman-kissing-man.svg` is missing
+emoji_unicode.replace(
+    u'\U0001f469\u200d\u2764\ufe0f\u200d\U0001f48b\u200d\U0001f468',
+    lambda e: render(e)
+)
+# <img src="1f469.svg" alt="\U0001f469"><img src="2764.svg" alt="\u2764"> ...
+```
+
 ## Dev
 
 The `./emoji_unicode/pattern.py` file is generated
