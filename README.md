@@ -5,7 +5,7 @@
 [![pypi](https://img.shields.io/pypi/v/emoji-unicode.svg?style=flat-square)](https://pypi.python.org/pypi/emoji-unicode)
 [![licence](https://img.shields.io/pypi/l/emoji-unicode.svg?style=flat-square)](https://raw.githubusercontent.com/nitely/emoji-unicode/master/LICENSE)
 
-Replace unicode emojis by its corresponding image representation. Supports *Unicode 8* standard.
+Replace unicode emojis in a text. Supports *Unicode 8* standard.
 
 ## Compatibility
 
@@ -125,7 +125,7 @@ then putting the output in a in-memory copy of
 `./emoji_unicode/pattern_template.py`, and lastly
 writing the result into `pattern.py`.
 
-To generate the `pattern.py` fie, run:
+To generate the `pattern.py` file, run:
 
 ```
 $ python ./build.py
