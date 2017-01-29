@@ -5,7 +5,7 @@
 [![pypi](https://img.shields.io/pypi/v/emoji-unicode.svg?style=flat-square)](https://pypi.python.org/pypi/emoji-unicode)
 [![licence](https://img.shields.io/pypi/l/emoji-unicode.svg?style=flat-square)](https://raw.githubusercontent.com/nitely/emoji-unicode/master/LICENSE)
 
-Replace unicode emojis in a text. Supports *Unicode 8* standard.
+Replace unicode emojis in a text. Supports *Unicode 9* standard.
 
 ## Compatibility
 
