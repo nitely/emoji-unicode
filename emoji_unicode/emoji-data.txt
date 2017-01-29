@@ -1,139 +1,210 @@
-# 0023          ; Emoji                #   [1] (#️)      NUMBER SIGN
-# 002A          ; Emoji                #   [1] (*)       ASTERISK
-# 0030..0039    ; Emoji                #  [10] (0️..9️)  DIGIT ZERO..DIGIT NINE
-00A9          ; Emoji                #   [1] (©️)      COPYRIGHT SIGN
-00AE          ; Emoji                #   [1] (®️)      REGISTERED SIGN
-203C          ; Emoji                #   [1] (‼️)      DOUBLE EXCLAMATION MARK
-2049          ; Emoji                #   [1] (⁉️)      EXCLAMATION QUESTION MARK
-2122          ; Emoji                #   [1] (™️)      TRADE MARK SIGN
-2139          ; Emoji                #   [1] (ℹ️)      INFORMATION SOURCE
-2194..2199    ; Emoji                #   [6] (↔️..↙️)  LEFT RIGHT ARROW..SOUTH WEST ARROW
-21A9..21AA    ; Emoji                #   [2] (↩️..↪️)  LEFTWARDS ARROW WITH HOOK..RIGHTWARDS ARROW WITH HOOK
-231A..231B    ; Emoji                #   [2] (⌚️..⌛️)  WATCH..HOURGLASS
-2328          ; Emoji                #   [1] (⌨)       KEYBOARD
-23CF          ; Emoji                #   [1] (⏏)       EJECT SYMBOL
-23E9..23F3    ; Emoji                #  [11] (⏩..⏳)    BLACK RIGHT-POINTING DOUBLE TRIANGLE..HOURGLASS WITH FLOWING SAND
-23F8..23FA    ; Emoji                #   [3] (⏸..⏺)    DOUBLE VERTICAL BAR..BLACK CIRCLE FOR RECORD
-24C2          ; Emoji                #   [1] (Ⓜ️)      CIRCLED LATIN CAPITAL LETTER M
-25AA..25AB    ; Emoji                #   [2] (▪️..▫️)  BLACK SMALL SQUARE..WHITE SMALL SQUARE
-25B6          ; Emoji                #   [1] (▶️)      BLACK RIGHT-POINTING TRIANGLE
-25C0          ; Emoji                #   [1] (◀️)      BLACK LEFT-POINTING TRIANGLE
-25FB..25FE    ; Emoji                #   [4] (◻️..◾️)  WHITE MEDIUM SQUARE..BLACK MEDIUM SMALL SQUARE
-2600..2604    ; Emoji                #   [5] (☀️..☄)   BLACK SUN WITH RAYS..COMET
-260E          ; Emoji                #   [1] (☎️)      BLACK TELEPHONE
-2611          ; Emoji                #   [1] (☑️)      BALLOT BOX WITH CHECK
-2614..2615    ; Emoji                #   [2] (☔️..☕️)  UMBRELLA WITH RAIN DROPS..HOT BEVERAGE
-2618          ; Emoji                #   [1] (☘)       SHAMROCK
-261D          ; Emoji                #   [1] (☝️)      WHITE UP POINTING INDEX
-2620          ; Emoji                #   [1] (☠)       SKULL AND CROSSBONES
-2622..2623    ; Emoji                #   [2] (☢..☣)    RADIOACTIVE SIGN..BIOHAZARD SIGN
-2626          ; Emoji                #   [1] (☦)       ORTHODOX CROSS
-262A          ; Emoji                #   [1] (☪)       STAR AND CRESCENT
-262E..262F    ; Emoji                #   [2] (☮..☯)    PEACE SYMBOL..YIN YANG
-2638..263A    ; Emoji                #   [3] (☸..☺️)   WHEEL OF DHARMA..WHITE SMILING FACE
-2648..2653    ; Emoji                #  [12] (♈️..♓️)  ARIES..PISCES
-2660          ; Emoji                #   [1] (♠️)      BLACK SPADE SUIT
-2663          ; Emoji                #   [1] (♣️)      BLACK CLUB SUIT
-2665..2666    ; Emoji                #   [2] (♥️..♦️)  BLACK HEART SUIT..BLACK DIAMOND SUIT
-2668          ; Emoji                #   [1] (♨️)      HOT SPRINGS
-267B          ; Emoji                #   [1] (♻️)      BLACK UNIVERSAL RECYCLING SYMBOL
-267F          ; Emoji                #   [1] (♿️)      WHEELCHAIR SYMBOL
-2692..2694    ; Emoji                #   [3] (⚒..⚔)    HAMMER AND PICK..CROSSED SWORDS
-2696..2697    ; Emoji                #   [2] (⚖..⚗)    SCALES..ALEMBIC
-2699          ; Emoji                #   [1] (⚙)       GEAR
-269B..269C    ; Emoji                #   [2] (⚛..⚜)    ATOM SYMBOL..FLEUR-DE-LIS
-26A0..26A1    ; Emoji                #   [2] (⚠️..⚡️)  WARNING SIGN..HIGH VOLTAGE SIGN
-26AA..26AB    ; Emoji                #   [2] (⚪️..⚫️)  MEDIUM WHITE CIRCLE..MEDIUM BLACK CIRCLE
-26B0..26B1    ; Emoji                #   [2] (⚰..⚱)    COFFIN..FUNERAL URN
-26BD..26BE    ; Emoji                #   [2] (⚽️..⚾️)  SOCCER BALL..BASEBALL
-26C4..26C5    ; Emoji                #   [2] (⛄️..⛅️)  SNOWMAN WITHOUT SNOW..SUN BEHIND CLOUD
-26C8          ; Emoji                #   [1] (⛈)       THUNDER CLOUD AND RAIN
-26CE..26CF    ; Emoji                #   [2] (⛎..⛏)    OPHIUCHUS..PICK
-26D1          ; Emoji                #   [1] (⛑)       HELMET WITH WHITE CROSS
-26D3..26D4    ; Emoji                #   [2] (⛓..⛔️)   CHAINS..NO ENTRY
-26E9..26EA    ; Emoji                #   [2] (⛩..⛪️)   SHINTO SHRINE..CHURCH
-26F0..26F5    ; Emoji                #   [6] (⛰..⛵️)   MOUNTAIN..SAILBOAT
-26F7..26FA    ; Emoji                #   [4] (⛷..⛺️)   SKIER..TENT
-26FD          ; Emoji                #   [1] (⛽️)      FUEL PUMP
-2702          ; Emoji                #   [1] (✂️)      BLACK SCISSORS
+# 0023          ; Emoji                #   [1] (#️)       NUMBER SIGN
+# 002A          ; Emoji                #   [1] (*️)       ASTERISK
+# 0030..0039    ; Emoji                #  [10] (0️..9️)    DIGIT ZERO..DIGIT NINE
+00A9          ; Emoji                #   [1] (©️)       COPYRIGHT
+00AE          ; Emoji                #   [1] (®️)       REGISTERED
+203C          ; Emoji                #   [1] (‼️)       DOUBLE EXCLAMATION MARK
+2049          ; Emoji                #   [1] (⁉️)       EXCLAMATION QUESTION MARK
+2122          ; Emoji                #   [1] (™️)       TRADE MARK
+2139          ; Emoji                #   [1] (ℹ️)       INFORMATION
+2194..2199    ; Emoji                #   [6] (↔️..↙️)    LEFT-RIGHT ARROW..DOWN-LEFT ARROW
+21A9..21AA    ; Emoji                #   [2] (↩️..↪️)    RIGHT ARROW CURVING LEFT..LEFT ARROW CURVING RIGHT
+231A..231B    ; Emoji                #   [2] (⌚..⌛)    WATCH..HOURGLASS
+2328          ; Emoji                #   [1] (⌨️)       KEYBOARD
+23CF          ; Emoji                #   [1] (⏏️)       EJECT BUTTON
+23E9..23F3    ; Emoji                #  [11] (⏩..⏳)    FAST-FORWARD BUTTON..HOURGLASS WITH FLOWING SAND
+23F8..23FA    ; Emoji                #   [3] (⏸️..⏺️)    PAUSE BUTTON..RECORD BUTTON
+24C2          ; Emoji                #   [1] (Ⓜ️)       CIRCLED M
+25AA..25AB    ; Emoji                #   [2] (▪️..▫️)    BLACK SMALL SQUARE..WHITE SMALL SQUARE
+25B6          ; Emoji                #   [1] (▶️)       PLAY BUTTON
+25C0          ; Emoji                #   [1] (◀️)       REVERSE BUTTON
+25FB..25FE    ; Emoji                #   [4] (◻️..◾)    WHITE MEDIUM SQUARE..BLACK MEDIUM-SMALL SQUARE
+2600..2604    ; Emoji                #   [5] (☀️..☄️)    SUN..COMET
+260E          ; Emoji                #   [1] (☎️)       TELEPHONE
+2611          ; Emoji                #   [1] (☑️)       BALLOT BOX WITH CHECK
+2614..2615    ; Emoji                #   [2] (☔..☕)    UMBRELLA WITH RAIN DROPS..HOT BEVERAGE
+2618          ; Emoji                #   [1] (☘️)       SHAMROCK
+261D          ; Emoji                #   [1] (☝️)       INDEX POINTING UP
+2620          ; Emoji                #   [1] (☠️)       SKULL AND CROSSBONES
+2622..2623    ; Emoji                #   [2] (☢️..☣️)    RADIOACTIVE..BIOHAZARD
+2626          ; Emoji                #   [1] (☦️)       ORTHODOX CROSS
+262A          ; Emoji                #   [1] (☪️)       STAR AND CRESCENT
+262E..262F    ; Emoji                #   [2] (☮️..☯️)    PEACE SYMBOL..YIN YANG
+2638..263A    ; Emoji                #   [3] (☸️..☺️)    WHEEL OF DHARMA..SMILING FACE
+2640          ; Emoji                #   [1] (♀️)       FEMALE SIGN
+2642          ; Emoji                #   [1] (♂️)       MALE SIGN
+2648..2653    ; Emoji                #  [12] (♈..♓)    ARIES..PISCES
+2660          ; Emoji                #   [1] (♠️)       SPADE SUIT
+2663          ; Emoji                #   [1] (♣️)       CLUB SUIT
+2665..2666    ; Emoji                #   [2] (♥️..♦️)    HEART SUIT..DIAMOND SUIT
+2668          ; Emoji                #   [1] (♨️)       HOT SPRINGS
+267B          ; Emoji                #   [1] (♻️)       RECYCLING SYMBOL
+267F          ; Emoji                #   [1] (♿)       WHEELCHAIR SYMBOL
+2692..2697    ; Emoji                #   [6] (⚒️..⚗️)    HAMMER AND PICK..ALEMBIC
+2699          ; Emoji                #   [1] (⚙️)       GEAR
+269B..269C    ; Emoji                #   [2] (⚛️..⚜️)    ATOM SYMBOL..FLEUR-DE-LIS
+26A0..26A1    ; Emoji                #   [2] (⚠️..⚡)    WARNING..HIGH VOLTAGE
+26AA..26AB    ; Emoji                #   [2] (⚪..⚫)    WHITE CIRCLE..BLACK CIRCLE
+26B0..26B1    ; Emoji                #   [2] (⚰️..⚱️)    COFFIN..FUNERAL URN
+26BD..26BE    ; Emoji                #   [2] (⚽..⚾)    SOCCER BALL..BASEBALL
+26C4..26C5    ; Emoji                #   [2] (⛄..⛅)    SNOWMAN WITHOUT SNOW..SUN BEHIND CLOUD
+26C8          ; Emoji                #   [1] (⛈️)       CLOUD WITH LIGHTNING AND RAIN
+26CE          ; Emoji                #   [1] (⛎)       OPHIUCHUS
+26CF          ; Emoji                #   [1] (⛏️)       PICK
+26D1          ; Emoji                #   [1] (⛑️)       RESCUE WORKER’S HELMET
+26D3..26D4    ; Emoji                #   [2] (⛓️..⛔)    CHAINS..NO ENTRY
+26E9..26EA    ; Emoji                #   [2] (⛩️..⛪)    SHINTO SHRINE..CHURCH
+26F0..26F5    ; Emoji                #   [6] (⛰️..⛵)    MOUNTAIN..SAILBOAT
+26F7..26FA    ; Emoji                #   [4] (⛷️..⛺)    SKIER..TENT
+26FD          ; Emoji                #   [1] (⛽)       FUEL PUMP
+2702          ; Emoji                #   [1] (✂️)       SCISSORS
 2705          ; Emoji                #   [1] (✅)       WHITE HEAVY CHECK MARK
-2708..270D    ; Emoji                #   [6] (✈️..✍)   AIRPLANE..WRITING HAND
-270F          ; Emoji                #   [1] (✏️)      PENCIL
-2712          ; Emoji                #   [1] (✒️)      BLACK NIB
-2714          ; Emoji                #   [1] (✔️)      HEAVY CHECK MARK
-2716          ; Emoji                #   [1] (✖️)      HEAVY MULTIPLICATION X
-271D          ; Emoji                #   [1] (✝)       LATIN CROSS
-2721          ; Emoji                #   [1] (✡)       STAR OF DAVID
+2708..2709    ; Emoji                #   [2] (✈️..✉️)    AIRPLANE..ENVELOPE
+270A..270B    ; Emoji                #   [2] (✊..✋)    RAISED FIST..RAISED HAND
+270C..270D    ; Emoji                #   [2] (✌️..✍️)    VICTORY HAND..WRITING HAND
+270F          ; Emoji                #   [1] (✏️)       PENCIL
+2712          ; Emoji                #   [1] (✒️)       BLACK NIB
+2714          ; Emoji                #   [1] (✔️)       HEAVY CHECK MARK
+2716          ; Emoji                #   [1] (✖️)       HEAVY MULTIPLICATION X
+271D          ; Emoji                #   [1] (✝️)       LATIN CROSS
+2721          ; Emoji                #   [1] (✡️)       STAR OF DAVID
 2728          ; Emoji                #   [1] (✨)       SPARKLES
-2733..2734    ; Emoji                #   [2] (✳️..✴️)  EIGHT SPOKED ASTERISK..EIGHT POINTED BLACK STAR
-2744          ; Emoji                #   [1] (❄️)      SNOWFLAKE
-2747          ; Emoji                #   [1] (❇️)      SPARKLE
+2733..2734    ; Emoji                #   [2] (✳️..✴️)    EIGHT-SPOKED ASTERISK..EIGHT-POINTED STAR
+2744          ; Emoji                #   [1] (❄️)       SNOWFLAKE
+2747          ; Emoji                #   [1] (❇️)       SPARKLE
 274C          ; Emoji                #   [1] (❌)       CROSS MARK
-274E          ; Emoji                #   [1] (❎)       NEGATIVE SQUARED CROSS MARK
-2753..2755    ; Emoji                #   [3] (❓..❕)    BLACK QUESTION MARK ORNAMENT..WHITE EXCLAMATION MARK ORNAMENT
-2757          ; Emoji                #   [1] (❗️)      HEAVY EXCLAMATION MARK SYMBOL
-2763..2764    ; Emoji                #   [2] (❣..❤️)   HEAVY HEART EXCLAMATION MARK ORNAMENT..HEAVY BLACK HEART
+274E          ; Emoji                #   [1] (❎)       CROSS MARK BUTTON
+2753..2755    ; Emoji                #   [3] (❓..❕)    QUESTION MARK..WHITE EXCLAMATION MARK
+2757          ; Emoji                #   [1] (❗)       EXCLAMATION MARK
+2763..2764    ; Emoji                #   [2] (❣️..❤️)    HEAVY HEART EXCLAMATION..RED HEART
 2795..2797    ; Emoji                #   [3] (➕..➗)    HEAVY PLUS SIGN..HEAVY DIVISION SIGN
-27A1          ; Emoji                #   [1] (➡️)      BLACK RIGHTWARDS ARROW
+27A1          ; Emoji                #   [1] (➡️)       RIGHT ARROW
 27B0          ; Emoji                #   [1] (➰)       CURLY LOOP
 27BF          ; Emoji                #   [1] (➿)       DOUBLE CURLY LOOP
-2934..2935    ; Emoji                #   [2] (⤴️..⤵️)  ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS..ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS
-2B05..2B07    ; Emoji                #   [3] (⬅️..⬇️)  LEFTWARDS BLACK ARROW..DOWNWARDS BLACK ARROW
-2B1B..2B1C    ; Emoji                #   [2] (⬛️..⬜️)  BLACK LARGE SQUARE..WHITE LARGE SQUARE
-2B50          ; Emoji                #   [1] (⭐️)      WHITE MEDIUM STAR
-2B55          ; Emoji                #   [1] (⭕️)      HEAVY LARGE CIRCLE
-3030          ; Emoji                #   [1] (〰️)      WAVY DASH
-303D          ; Emoji                #   [1] (〽️)      PART ALTERNATION MARK
-3297          ; Emoji                #   [1] (㊗️)      CIRCLED IDEOGRAPH CONGRATULATION
-3299          ; Emoji                #   [1] (㊙️)      CIRCLED IDEOGRAPH SECRET
-1F004         ; Emoji                #   [1] (🀄️)      MAHJONG TILE RED DRAGON
-1F0CF         ; Emoji                #   [1] (🃏)       PLAYING CARD BLACK JOKER
-1F170..1F171  ; Emoji                #   [2] (🅰️..🅱️)  NEGATIVE SQUARED LATIN CAPITAL LETTER A..NEGATIVE SQUARED LATIN CAPITAL LETTER B
-1F17E..1F17F  ; Emoji                #   [2] (🅾️..🅿️)  NEGATIVE SQUARED LATIN CAPITAL LETTER O..NEGATIVE SQUARED LATIN CAPITAL LETTER P
-1F18E         ; Emoji                #   [1] (🆎)       NEGATIVE SQUARED AB
-1F191..1F19A  ; Emoji                #  [10] (🆑..🆚)    SQUARED CL..SQUARED VS
+2934..2935    ; Emoji                #   [2] (⤴️..⤵️)    RIGHT ARROW CURVING UP..RIGHT ARROW CURVING DOWN
+2B05..2B07    ; Emoji                #   [3] (⬅️..⬇️)    LEFT ARROW..DOWN ARROW
+2B1B..2B1C    ; Emoji                #   [2] (⬛..⬜)    BLACK LARGE SQUARE..WHITE LARGE SQUARE
+2B50          ; Emoji                #   [1] (⭐)       WHITE MEDIUM STAR
+2B55          ; Emoji                #   [1] (⭕)       HEAVY LARGE CIRCLE
+3030          ; Emoji                #   [1] (〰️)       WAVY DASH
+303D          ; Emoji                #   [1] (〽️)       PART ALTERNATION MARK
+3297          ; Emoji                #   [1] (㊗️)       JAPANESE “CONGRATULATIONS” BUTTON
+3299          ; Emoji                #   [1] (㊙️)       JAPANESE “SECRET” BUTTON
+1F004         ; Emoji                #   [1] (🀄)       MAHJONG RED DRAGON
+1F0CF         ; Emoji                #   [1] (🃏)       JOKER
+1F170..1F171  ; Emoji                #   [2] (🅰️..🅱️)    A BUTTON (BLOOD TYPE)..B BUTTON (BLOOD TYPE)
+1F17E         ; Emoji                #   [1] (🅾️)       O BUTTON (BLOOD TYPE)
+1F17F         ; Emoji                #   [1] (🅿️)       P BUTTON
+1F18E         ; Emoji                #   [1] (🆎)       AB BUTTON (BLOOD TYPE)
+1F191..1F19A  ; Emoji                #  [10] (🆑..🆚)    CL BUTTON..VS BUTTON
 1F1E6..1F1FF  ; Emoji                #  [26] (🇦..🇿)    REGIONAL INDICATOR SYMBOL LETTER A..REGIONAL INDICATOR SYMBOL LETTER Z
-1F201..1F202  ; Emoji                #   [2] (🈁..🈂️)   SQUARED KATAKANA KOKO..SQUARED KATAKANA SA
-1F21A         ; Emoji                #   [1] (🈚️)      SQUARED CJK UNIFIED IDEOGRAPH-7121
-1F22F         ; Emoji                #   [1] (🈯️)      SQUARED CJK UNIFIED IDEOGRAPH-6307
-1F232..1F23A  ; Emoji                #   [9] (🈲..🈺)    SQUARED CJK UNIFIED IDEOGRAPH-7981..SQUARED CJK UNIFIED IDEOGRAPH-55B6
-1F250..1F251  ; Emoji                #   [2] (🉐..🉑)    CIRCLED IDEOGRAPH ADVANTAGE..CIRCLED IDEOGRAPH ACCEPT
-1F300..1F321  ; Emoji                #  [34] (🌀..🌡)    CYCLONE..THERMOMETER
-1F324..1F393  ; Emoji                # [112] (🌤..🎓)    WHITE SUN WITH SMALL CLOUD..GRADUATION CAP
-1F396..1F397  ; Emoji                #   [2] (🎖..🎗)    MILITARY MEDAL..REMINDER RIBBON
-1F399..1F39B  ; Emoji                #   [3] (🎙..🎛)    STUDIO MICROPHONE..CONTROL KNOBS
-1F39E..1F3F0  ; Emoji                #  [83] (🎞..🏰)    FILM FRAMES..EUROPEAN CASTLE
-1F3F3..1F3F5  ; Emoji                #   [3] (🏳..🏵)    WAVING WHITE FLAG..ROSETTE
-1F3F7..1F4FD  ; Emoji                # [263] (🏷..📽)    LABEL..FILM PROJECTOR
-1F4FF..1F53D  ; Emoji                #  [63] (📿..🔽)    PRAYER BEADS..DOWN-POINTING SMALL RED TRIANGLE
-1F549..1F54E  ; Emoji                #   [6] (🕉..🕎)    OM SYMBOL..MENORAH WITH NINE BRANCHES
-1F550..1F567  ; Emoji                #  [24] (🕐..🕧)    CLOCK FACE ONE OCLOCK..CLOCK FACE TWELVE-THIRTY
-1F56F..1F570  ; Emoji                #   [2] (🕯..🕰)    CANDLE..MANTELPIECE CLOCK
-1F573..1F579  ; Emoji                #   [7] (🕳..🕹)    HOLE..JOYSTICK
-1F587         ; Emoji                #   [1] (🖇)       LINKED PAPERCLIPS
-1F58A..1F58D  ; Emoji                #   [4] (🖊..🖍)    LOWER LEFT BALLPOINT PEN..LOWER LEFT CRAYON
-1F590         ; Emoji                #   [1] (🖐)       RAISED HAND WITH FINGERS SPLAYED
-1F595..1F596  ; Emoji                #   [2] (🖕..🖖)    REVERSED HAND WITH MIDDLE FINGER EXTENDED..RAISED HAND WITH PART BETWEEN MIDDLE AND RING FINGERS
-1F5A5         ; Emoji                #   [1] (🖥)       DESKTOP COMPUTER
-1F5A8         ; Emoji                #   [1] (🖨)       PRINTER
-1F5B1..1F5B2  ; Emoji                #   [2] (🖱..🖲)    THREE BUTTON MOUSE..TRACKBALL
-1F5BC         ; Emoji                #   [1] (🖼)       FRAME WITH PICTURE
-1F5C2..1F5C4  ; Emoji                #   [3] (🗂..🗄)    CARD INDEX DIVIDERS..FILE CABINET
-1F5D1..1F5D3  ; Emoji                #   [3] (🗑..🗓)    WASTEBASKET..SPIRAL CALENDAR PAD
-1F5DC..1F5DE  ; Emoji                #   [3] (🗜..🗞)    COMPRESSION..ROLLED-UP NEWSPAPER
-1F5E1         ; Emoji                #   [1] (🗡)       DAGGER KNIFE
-1F5E3         ; Emoji                #   [1] (🗣)       SPEAKING HEAD IN SILHOUETTE
-1F5E8         ; Emoji                #   [1] (🗨)       LEFT SPEECH BUBBLE
-1F5EF         ; Emoji                #   [1] (🗯)       RIGHT ANGER BUBBLE
-1F5F3         ; Emoji                #   [1] (🗳)       BALLOT BOX WITH BALLOT
-1F5FA..1F64F  ; Emoji                #  [86] (🗺..🙏)    WORLD MAP..PERSON WITH FOLDED HANDS
+1F201..1F202  ; Emoji                #   [2] (🈁..🈂️)    JAPANESE “HERE” BUTTON..JAPANESE “SERVICE CHARGE” BUTTON
+1F21A         ; Emoji                #   [1] (🈚)       JAPANESE “FREE OF CHARGE” BUTTON
+1F22F         ; Emoji                #   [1] (🈯)       JAPANESE “RESERVED” BUTTON
+1F232..1F23A  ; Emoji                #   [9] (🈲..🈺)    JAPANESE “PROHIBITED” BUTTON..JAPANESE “OPEN FOR BUSINESS” BUTTON
+1F250..1F251  ; Emoji                #   [2] (🉐..🉑)    JAPANESE “BARGAIN” BUTTON..JAPANESE “ACCEPTABLE” BUTTON
+1F300..1F320  ; Emoji                #  [33] (🌀..🌠)    CYCLONE..SHOOTING STAR
+1F321         ; Emoji                #   [1] (🌡️)       THERMOMETER
+1F324..1F32C  ; Emoji                #   [9] (🌤️..🌬️)    SUN BEHIND SMALL CLOUD..WIND FACE
+1F32D..1F32F  ; Emoji                #   [3] (🌭..🌯)    HOT DOG..BURRITO
+1F330..1F335  ; Emoji                #   [6] (🌰..🌵)    CHESTNUT..CACTUS
+1F336         ; Emoji                #   [1] (🌶️)       HOT PEPPER
+1F337..1F37C  ; Emoji                #  [70] (🌷..🍼)    TULIP..BABY BOTTLE
+1F37D         ; Emoji                #   [1] (🍽️)       FORK AND KNIFE WITH PLATE
+1F37E..1F37F  ; Emoji                #   [2] (🍾..🍿)    BOTTLE WITH POPPING CORK..POPCORN
+1F380..1F393  ; Emoji                #  [20] (🎀..🎓)    RIBBON..GRADUATION CAP
+1F396..1F397  ; Emoji                #   [2] (🎖️..🎗️)    MILITARY MEDAL..REMINDER RIBBON
+1F399..1F39B  ; Emoji                #   [3] (🎙️..🎛️)    STUDIO MICROPHONE..CONTROL KNOBS
+1F39E..1F39F  ; Emoji                #   [2] (🎞️..🎟️)    FILM FRAMES..ADMISSION TICKETS
+1F3A0..1F3C4  ; Emoji                #  [37] (🎠..🏄)    CAROUSEL HORSE..PERSON SURFING
+1F3C5         ; Emoji                #   [1] (🏅)       SPORTS MEDAL
+1F3C6..1F3CA  ; Emoji                #   [5] (🏆..🏊)    TROPHY..PERSON SWIMMING
+1F3CB..1F3CE  ; Emoji                #   [4] (🏋️..🏎️)    PERSON LIFTING WEIGHTS..RACING CAR
+1F3CF..1F3D3  ; Emoji                #   [5] (🏏..🏓)    CRICKET..PING PONG
+1F3D4..1F3DF  ; Emoji                #  [12] (🏔️..🏟️)    SNOW-CAPPED MOUNTAIN..STADIUM
+1F3E0..1F3F0  ; Emoji                #  [17] (🏠..🏰)    HOUSE..CASTLE
+1F3F3..1F3F5  ; Emoji                #   [3] (🏳️..🏵️)    WHITE FLAG..ROSETTE
+1F3F7         ; Emoji                #   [1] (🏷️)       LABEL
+1F3F8..1F3FF  ; Emoji                #   [8] (🏸..🏿)    BADMINTON..DARK SKIN TONE
+1F400..1F43E  ; Emoji                #  [63] (🐀..🐾)    RAT..PAW PRINTS
+1F43F         ; Emoji                #   [1] (🐿️)       CHIPMUNK
+1F440         ; Emoji                #   [1] (👀)       EYES
+1F441         ; Emoji                #   [1] (👁️)       EYE
+1F442..1F4F7  ; Emoji                #  182] (👂..📷)    EAR..CAMERA
+1F4F8         ; Emoji                #   [1] (📸)       CAMERA WITH FLASH
+1F4F9..1F4FC  ; Emoji                #   [4] (📹..📼)    VIDEO CAMERA..VIDEOCASSETTE
+1F4FD         ; Emoji                #   [1] (📽️)       FILM PROJECTOR
+1F4FF         ; Emoji                #   [1] (📿)       PRAYER BEADS
+1F500..1F53D  ; Emoji                #  [62] (🔀..🔽)    SHUFFLE TRACKS BUTTON..DOWN BUTTON
+1F549..1F54A  ; Emoji                #   [2] (🕉️..🕊️)    OM..DOVE
+1F54B..1F54E  ; Emoji                #   [4] (🕋..🕎)    KAABA..MENORAH
+1F550..1F567  ; Emoji                #  [24] (🕐..🕧)    ONE O’CLOCK..TWELVE-THIRTY
+1F56F..1F570  ; Emoji                #   [2] (🕯️..🕰️)    CANDLE..MANTELPIECE CLOCK
+1F573..1F579  ; Emoji                #   [7] (🕳️..🕹️)    HOLE..JOYSTICK
+1F57A         ; Emoji                #   [1] (🕺)       MAN DANCING
+1F587         ; Emoji                #   [1] (🖇️)       LINKED PAPERCLIPS
+1F58A..1F58D  ; Emoji                #   [4] (🖊️..🖍️)    PEN..CRAYON
+1F590         ; Emoji                #   [1] (🖐️)       RAISED HAND WITH FINGERS SPLAYED
+1F595..1F596  ; Emoji                #   [2] (🖕..🖖)    MIDDLE FINGER..VULCAN SALUTE
+1F5A4         ; Emoji                #   [1] (🖤)       BLACK HEART
+1F5A5         ; Emoji                #   [1] (🖥️)       DESKTOP COMPUTER
+1F5A8         ; Emoji                #   [1] (🖨️)       PRINTER
+1F5B1..1F5B2  ; Emoji                #   [2] (🖱️..🖲️)    COMPUTER MOUSE..TRACKBALL
+1F5BC         ; Emoji                #   [1] (🖼️)       FRAMED PICTURE
+1F5C2..1F5C4  ; Emoji                #   [3] (🗂️..🗄️)    CARD INDEX DIVIDERS..FILE CABINET
+1F5D1..1F5D3  ; Emoji                #   [3] (🗑️..🗓️)    WASTEBASKET..SPIRAL CALENDAR
+1F5DC..1F5DE  ; Emoji                #   [3] (🗜️..🗞️)    CLAMP..ROLLED-UP NEWSPAPER
+1F5E1         ; Emoji                #   [1] (🗡️)       DAGGER
+1F5E3         ; Emoji                #   [1] (🗣️)       SPEAKING HEAD
+1F5E8         ; Emoji                #   [1] (🗨️)       LEFT SPEECH BUBBLE
+1F5EF         ; Emoji                #   [1] (🗯️)       RIGHT ANGER BUBBLE
+1F5F3         ; Emoji                #   [1] (🗳️)       BALLOT BOX WITH BALLOT
+1F5FA         ; Emoji                #   [1] (🗺️)       WORLD MAP
+1F5FB..1F5FF  ; Emoji                #   [5] (🗻..🗿)    MOUNT FUJI..MOAI
+1F600         ; Emoji                #   [1] (😀)       GRINNING FACE
+1F601..1F610  ; Emoji                #  [16] (😁..😐)    GRINNING FACE WITH SMILING EYES..NEUTRAL FACE
+1F611         ; Emoji                #   [1] (😑)       EXPRESSIONLESS FACE
+1F612..1F614  ; Emoji                #   [3] (😒..😔)    UNAMUSED FACE..PENSIVE FACE
+1F615         ; Emoji                #   [1] (😕)       CONFUSED FACE
+1F616         ; Emoji                #   [1] (😖)       CONFOUNDED FACE
+1F617         ; Emoji                #   [1] (😗)       KISSING FACE
+1F618         ; Emoji                #   [1] (😘)       FACE BLOWING A KISS
+1F619         ; Emoji                #   [1] (😙)       KISSING FACE WITH SMILING EYES
+1F61A         ; Emoji                #   [1] (😚)       KISSING FACE WITH CLOSED EYES
+1F61B         ; Emoji                #   [1] (😛)       FACE WITH STUCK-OUT TONGUE
+1F61C..1F61E  ; Emoji                #   [3] (😜..😞)    FACE WITH STUCK-OUT TONGUE & WINKING EYE..DISAPPOINTED FACE
+1F61F         ; Emoji                #   [1] (😟)       WORRIED FACE
+1F620..1F625  ; Emoji                #   [6] (😠..😥)    ANGRY FACE..DISAPPOINTED BUT RELIEVED FACE
+1F626..1F627  ; Emoji                #   [2] (😦..😧)    FROWNING FACE WITH OPEN MOUTH..ANGUISHED FACE
+1F628..1F62B  ; Emoji                #   [4] (😨..😫)    FEARFUL FACE..TIRED FACE
+1F62C         ; Emoji                #   [1] (😬)       GRIMACING FACE
+1F62D         ; Emoji                #   [1] (😭)       LOUDLY CRYING FACE
+1F62E..1F62F  ; Emoji                #   [2] (😮..😯)    FACE WITH OPEN MOUTH..HUSHED FACE
+1F630..1F633  ; Emoji                #   [4] (😰..😳)    FACE WITH OPEN MOUTH & COLD SWEAT..FLUSHED FACE
+1F634         ; Emoji                #   [1] (😴)       SLEEPING FACE
+1F635..1F640  ; Emoji                #  [12] (😵..🙀)    DIZZY FACE..WEARY CAT FACE
+1F641..1F642  ; Emoji                #   [2] (🙁..🙂)    SLIGHTLY FROWNING FACE..SLIGHTLY SMILING FACE
+1F643..1F644  ; Emoji                #   [2] (🙃..🙄)    UPSIDE-DOWN FACE..FACE WITH ROLLING EYES
+1F645..1F64F  ; Emoji                #  [11] (🙅..🙏)    PERSON GESTURING NO..FOLDED HANDS
 1F680..1F6C5  ; Emoji                #  [70] (🚀..🛅)    ROCKET..LEFT LUGGAGE
-1F6CB..1F6D0  ; Emoji                #   [6] (🛋..🛐)    COUCH AND LAMP..PLACE OF WORSHIP
-1F6E0..1F6E5  ; Emoji                #   [6] (🛠..🛥)    HAMMER AND WRENCH..MOTOR BOAT
-1F6E9         ; Emoji                #   [1] (🛩)       SMALL AIRPLANE
-1F6EB..1F6EC  ; Emoji                #   [2] (🛫..🛬)    AIRPLANE DEPARTURE..AIRPLANE ARRIVING
-1F6F0         ; Emoji                #   [1] (🛰)       SATELLITE
-1F6F3         ; Emoji                #   [1] (🛳)       PASSENGER SHIP
+1F6CB..1F6CF  ; Emoji                #   [5] (🛋️..🛏️)    COUCH AND LAMP..BED
+1F6D0         ; Emoji                #   [1] (🛐)       PLACE OF WORSHIP
+1F6D1..1F6D2  ; Emoji                #   [2] (🛑..🛒)    STOP SIGN..SHOPPING CART
+1F6E0..1F6E5  ; Emoji                #   [6] (🛠️..🛥️)    HAMMER AND WRENCH..MOTOR BOAT
+1F6E9         ; Emoji                #   [1] (🛩️)       SMALL AIRPLANE
+1F6EB..1F6EC  ; Emoji                #   [2] (🛫..🛬)    AIRPLANE DEPARTURE..AIRPLANE ARRIVAL
+1F6F0         ; Emoji                #   [1] (🛰️)       SATELLITE
+1F6F3         ; Emoji                #   [1] (🛳️)       PASSENGER SHIP
+1F6F4..1F6F6  ; Emoji                #   [3] (🛴..🛶)    KICK SCOOTER..CANOE
 1F910..1F918  ; Emoji                #   [9] (🤐..🤘)    ZIPPER-MOUTH FACE..SIGN OF THE HORNS
+1F919..1F91E  ; Emoji                #   [6] (🤙..🤞)    CALL ME HAND..CROSSED FINGERS
+1F920..1F927  ; Emoji                #   [8] (🤠..🤧)    COWBOY HAT FACE..SNEEZING FACE
+1F930         ; Emoji                #   [1] (🤰)       PREGNANT WOMAN
+1F933..1F93A  ; Emoji                #   [8] (🤳..🤺)    SELFIE..PERSON FENCING
+1F93C..1F93E  ; Emoji                #   [3] (🤼..🤾)    PEOPLE WRESTLING..PERSON PLAYING HANDBALL
+1F940..1F945  ; Emoji                #   [6] (🥀..🥅)    WILTED FLOWER..GOAL NET
+1F947..1F94B  ; Emoji                #   [5] (🥇..🥋)    1ST PLACE MEDAL..MARTIAL ARTS UNIFORM
+1F950..1F95E  ; Emoji                #  [15] (🥐..🥞)    CROISSANT..PANCAKES
 1F980..1F984  ; Emoji                #   [5] (🦀..🦄)    CRAB..UNICORN FACE
+1F985..1F991  ; Emoji                #  [13] (🦅..🦑)    EAGLE..SQUID
 1F9C0         ; Emoji                #   [1] (🧀)       CHEESE WEDGE
