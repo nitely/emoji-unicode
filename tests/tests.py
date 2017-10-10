@@ -229,6 +229,9 @@ class DataParserTest(unittest.TestCase):
 
     def test_parse(self):
         res = set(data_parser.parse())
+        self.assertFalse('\u0023' in res)
+        self.assertFalse('\u002A' in res)
+        self.assertFalse('\u0030-\u0039' in res)
         self.assertTrue('\u00A9' in res)
         self.assertTrue('\u2194-\u2199' in res)  # range
 

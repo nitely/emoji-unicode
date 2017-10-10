@@ -5,12 +5,12 @@
 [![pypi](https://img.shields.io/pypi/v/emoji-unicode.svg?style=flat-square)](https://pypi.python.org/pypi/emoji-unicode)
 [![licence](https://img.shields.io/pypi/l/emoji-unicode.svg?style=flat-square)](https://raw.githubusercontent.com/nitely/emoji-unicode/master/LICENSE)
 
-Replace unicode emojis in a text. Supports *Unicode 9* standard.
+Replace unicode emojis in a text. Supports *Unicode 10* standard.
 
 ## Compatibility
 
 * Python 2.7 ([wide-build](http://emoji-unicode.readthedocs.org/en/latest/python2.html)),
-3.3, 3.4 and 3.5 (recommended)
+3.3, 3.4, 3.5 and +3.6 (recommended)
 
 ## Install
 
@@ -128,13 +128,13 @@ writing the result into `pattern.py`.
 To generate the `pattern.py` file, run:
 
 ```
-$ python ./build.py
+make gen
 ```
 
 ## Tests
 
 ```
-$ python ./runtests.py
+make test
 ```
 
 ## Benchmark
@@ -142,7 +142,7 @@ $ python ./runtests.py
 This will run some silly benchmarks.
 
 ```
-$ python ./benchmark.py
+make bench
 ```
 
 Here is the output on my machine:
