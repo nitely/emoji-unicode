@@ -57,13 +57,25 @@ def _parse(line):
     )
 
 
+EMOJI_EXCLUDE = {str(n) for n in range(0, 10)} | {'#', '*'}
+
+
 def parse():
     with io.open(os.path.join(DIR, 'emoji-data.txt'), mode='r', encoding='utf-8') as fh:
-        return [
-            _parse(line)
-            for line in fh.readlines()
-            if not line.startswith('#')
-        ]
+        cps = []
+
+        for line in fh.readlines():
+            if line.startswith('#'):
+                continue
+
+            cp = _parse(line)
+
+            if cp.split('-')[0] in EMOJI_EXCLUDE:
+                continue
+
+            cps.append(cp)
+
+        return cps
 
 
 def read_template():
