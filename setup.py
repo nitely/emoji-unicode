@@ -14,8 +14,8 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='emoji-unicode',
-    version='0.2',
-    description='Replace unicode emojis by its corresponding image representation. Supports Unicode 8 standard.',
+    version='0.3',
+    description='Replace unicode emojis by its corresponding image representation. Supports Unicode 9 standard.',
     author='Esteban Castro Borsani',
     author_email='ecastroborsani@gmail.com',
     long_description=README,
